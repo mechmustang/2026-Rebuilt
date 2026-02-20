@@ -2,6 +2,28 @@
 Code for FRC 2026 Rebuilt season robot named Tubs
 
 Code for this project can be found https://drive.google.com/drive/folders/1fjmmcrGFe04reTASdwDBGGoulZAy3yIZ?usp=share_link
+
+2-19-2026 Update fro Roer from Orange Laptop
+  **Created Intake subsystem
+    - intake operates with button operation on control joystik
+    - intake operates based solely on power input
+    - power is set initially in Constants, but can be tunable in AdvantageScope
+    - tested on 2-19 in practice
+
+  **Created Shooter subsystem
+    - shooter operates with two motors controlling the flywheel, and one motor with pulleys
+      controlling the 'lifting pulleys' 
+    - controlled by one button on control joystick that operates both simultaneously
+    - controlled only by controlling power
+    - power settings are set initially in constnats but tunable in advantage scope.
+    - tested on 2-19 in practice
+
+2-17-2026 (fork of 2-13-2026) From JJ
+  - installed pathplanner and a simple path
+  - untestable yet because drive subsystem wasn't testable, radio was sketchy, and battery not held in place yet
+  - Roer attempted to test on patches with some success but unable to deterimine (yet) why it seemed to operate with unexpected paths. 
+  - Expect a refinement from JJ, and Roer plans to install into 2-19's code after 2-19 proves workable. 
+
 2-13-2026 Update from Roer from Orange Laptop
   Updated Swerve Drive with correct can id's, angle offsets, and tuned kp, ki, kd, ks and kv values
   Updated to do list
