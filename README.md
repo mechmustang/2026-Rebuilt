@@ -3,6 +3,12 @@ Code for FRC 2026 Rebuilt season robot named Tubs
 
 Code for this project can be found https://drive.google.com/drive/folders/1fjmmcrGFe04reTASdwDBGGoulZAy3yIZ?usp=share_link
 
+2-21-2026 Update from Roer from Orange Laptop
+  **SCRIMMAGE CODE
+   - separated buttons for lifter and shooter trigger
+   - fixed direction issue for driving on red alliance
+   - minor tuning changes
+
 2-19-2026 Update fro Roer from Orange Laptop
   **Created Intake subsystem
     - intake operates with button operation on control joystik
