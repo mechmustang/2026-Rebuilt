@@ -3,6 +3,19 @@ Code for FRC 2026 Rebuilt season robot named Tubs
 
 Code for this project can be found https://drive.google.com/drive/folders/1fjmmcrGFe04reTASdwDBGGoulZAy3yIZ?usp=share_link
 
+2-28-2026  Update from Roer from Orange Laptop
+  **Updated shooter subsystem to be velocity controlled instead of power
+    - Created feedforward and PID controller for shooter
+    - Created a button that calculates distance away from basket and sets speed accordingly
+    - Used Desmos and some experimenting to create a linear regrssion for targetRPM and distance from targetRPM
+  ** Added CurrentLimits to SwerveDrive, which seems to help with brownouts.
+  ** Created a Snappy DriveSwerveWithJoystick command that doesn't limit acceleration, but haven't tested.  
+
+2-24-2026 Update from Rathbun
+   - Created climber code (but stole from intake buttons to do it I think, -roer)
+   - Created pathplanner code (untested)
+   - Needs to be merged into 2-28-2026 and tested
+
 2-21-2026 Update from Roer from Orange Laptop
   **SCRIMMAGE CODE
    - separated buttons for lifter and shooter trigger
