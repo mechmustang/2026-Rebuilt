@@ -3,6 +3,14 @@ Code for FRC 2026 Rebuilt season robot named Tubs
 
 Code for this project can be found https://drive.google.com/drive/folders/1fjmmcrGFe04reTASdwDBGGoulZAy3yIZ?usp=share_link
 
+3-5-2026 Update from Roer from Orange Laptop
+  ** Added Climber subsystem 
+  ** Added PathPlannerManager
+    - Created several auto paths and autos and tested them (from blue side only) 
+    - Autonomous sets our pose at the beginning of the match based on the beginning of our auto
+    - Pathplanner uses vision to help deterimine its location on the field while following paths
+  - minor reorganizations of things in shooter subsystem and others
+
 2-28-2026  Update from Roer from Orange Laptop
   **Updated shooter subsystem to be velocity controlled instead of power
     - Created feedforward and PID controller for shooter
