@@ -3,6 +3,22 @@ Code for FRC 2026 Rebuilt season robot named Tubs
 
 Code for this project can be found https://drive.google.com/drive/folders/1fjmmcrGFe04reTASdwDBGGoulZAy3yIZ?usp=share_link
 
+3-17-2026
+  ** CREATED INTAKE subsystem
+      - new intake has arm that comes up/down based on specified power controlled by dPad
+      - new intake has an outside roller and inside roller, currently operating together
+      - old intake still exists renamed as 'singleintake' and currently unused. 
+  ** CREATED CLIMBER subsystem
+      - new climber has a single motor that rises and falls with pair of triggers on joystick
+      - old climber still exists, renamed as 'rotatingclimber' but no longer functions because motors have been removed and reused. 
+
+3-7ish-2026
+  - Field visualization moved to RobotState to unify pose tracking across subsystems
+  - Updated shooter flywheel control to coast when not needed instead of stop quickly. 
+  - Updated SwerveDrive subsystem so wheels coast when disabled and automatically switch to brake when enabled
+  - Added SendableChooser to dynamically load PathPlanner .auto files for autonomous selection
+  - Set up disabled-mode guidance showing required X, Y, and heading (deltaTheta) relative to auto start on AdvantageScope/Logger
+
 3-5-2026 Update from Roer from Orange Laptop
   ** Added Climber subsystem 
   ** Added PathPlannerManager
