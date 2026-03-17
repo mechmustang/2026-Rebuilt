@@ -4,11 +4,11 @@ Code for FRC 2026 Rebuilt season robot named Tubs
 Code for this project can be found https://drive.google.com/drive/folders/1fjmmcrGFe04reTASdwDBGGoulZAy3yIZ?usp=share_link
 
 3-17-2026
-  ** CREATED INTAKE subsystem
+  - CREATED INTAKE subsystem
       - new intake has arm that comes up/down based on specified power controlled by dPad
       - new intake has an outside roller and inside roller, currently operating together
       - old intake still exists renamed as 'singleintake' and currently unused. 
-  ** CREATED CLIMBER subsystem
+  - CREATED CLIMBER subsystem
       - new climber has a single motor that rises and falls with pair of triggers on joystick
       - old climber still exists, renamed as 'rotatingclimber' but no longer functions because motors have been removed and reused. 
 
