@@ -3,6 +3,10 @@ Code for FRC 2026 Rebuilt season robot named Tubs
 
 Code for this project can be found https://drive.google.com/drive/folders/1fjmmcrGFe04reTASdwDBGGoulZAy3yIZ?usp=share_link
 
+3-20-2026 and 3-21-2026
+  - Code after first and second days of competition at Muskegon
+  - no major changes - a few tweaks to telemetry and autos in pathplanner
+    
 3-17-2026
   - CREATED INTAKE subsystem
       - new intake has arm that comes up/down based on specified power controlled by dPad
