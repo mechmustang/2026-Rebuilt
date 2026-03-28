@@ -3,6 +3,15 @@ Code for FRC 2026 Rebuilt season robot named Tubs
 
 Code for this project can be found https://drive.google.com/drive/folders/1fjmmcrGFe04reTASdwDBGGoulZAy3yIZ?usp=share_link
 
+GameLogs
+  - added all game logs from the competitions to be able to view using advantagescope
+
+3-28-2026
+  - Code after second competition in Allendale
+  - implemented climbing code in auto and created several path planner paths
+  - some changes to power managament to increase voltage to swerves and increased current limits
+  - added 'isjumping' to swerve drive to potentially allow us to tweak odometry when in the air - but never finished.
+
 3-20-2026 and 3-21-2026
   - Code after first and second days of competition at Muskegon
   - no major changes - a few tweaks to telemetry and autos in pathplanner
